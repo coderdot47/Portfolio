@@ -76,6 +76,10 @@
     .img-responsive img {
         width: 18rem;
         height: 30rem;
+        transition: all 0.5s;
+        &:hover {
+            filter: invert(1);
+        }
     }
     .img-responsive {
         width: 50%;
@@ -111,6 +115,10 @@
     }
     .image img {
         width: 30rem;
+        transition: all 0.5s;
+        &:hover {
+            filter: invert(1);
+        }
     }
     .description a {
         text-decoration: none;
@@ -182,5 +190,8 @@
     }
     a {
         text-decoration: none;
+    }
+    .heading {
+        text-align: center;
     }
 }

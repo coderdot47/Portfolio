@@ -114,6 +114,13 @@
 * .img-responsive img {
   width: 18rem;
   height: 30rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+* .img-responsive img:hover {
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
 
 * .img-responsive {
@@ -167,6 +174,13 @@
 
 * .image img {
   width: 30rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+* .image img:hover {
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
 
 * .description a {
@@ -278,5 +292,9 @@
 
 * a {
   text-decoration: none;
+}
+
+* .heading {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
