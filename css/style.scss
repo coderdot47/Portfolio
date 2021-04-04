@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+    // All Ids
+    #home {
+        background: #020202;
+        color: #fff;
+        width: 100%;
+        height: 100vh;
+    }
+    #about {
+        background: #020202;
+        color: #fff;
+        width: 100%;
+        height: 100vh;
+    }
+    #services {
+        background: #020202;
+        color: #fff;
+        width: 100%;
+        height: 100vh;
+    }
+    #contact {
+        background: #020202;
+        color: #fff;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    // Home
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+    }
+    .menu ul {
+        list-style: none;
+        display: flex;
+    }
+    .menu ul li {
+        padding: 1rem;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+    .body {
+        display: flex;
+        height: 70%;
+    }
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 120%;
+    }
+    .title {
+        font-size: 3rem;
+        margin-bottom: .5rem;
+    }
+    .designation {
+        font-size: 1rem;
+    }
+    .img-responsive img {
+        width: 18rem;
+        height: 30rem;
+    }
+    .img-responsive {
+        width: 50%;
+        height: 120%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    // About
+    .content {
+        width: 100%;
+        padding: 5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .description {
+        width: 40%;
+        height: 100%;
+    }
+    .about {
+        margin-bottom: 1.5rem;
+        font-size: 2.8rem;
+    }
+    .description p {
+        font-size: 1.3rem;
+        font-weight: 300;
+        line-height: 1.5em;
+    }
+    .image img {
+        width: 30rem;
+    }
+    .description a {
+        text-decoration: none;
+        color: #ff0;
+    }
+    // Services
+    .services {
+        padding: 5rem;
+        align-items: center;
+    }
+    .cards {
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        width: 20rem;
+        height: 20rem;
+        border: 1px solid #fff;
+        background-color: #000;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 3rem;
+        border-radius: 2rem;
+        font-size: 1.5rem;
+        margin-top: 4rem;
+        font-weight: 200;
+        transition: all 0.5s;
+        &:hover {
+            filter: invert(1);
+        }
+    }
+    .button-div {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button {
+        padding: 1rem;
+        width: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 2rem;
+        transition: all 0.5s;
+        cursor: pointer;
+        outline: none;
+        &:hover {
+            filter: invert(1);
+        }
+    }
+    .username {
+        font-size: 1.5rem;
+        margin-left: rem;
+    }
+    .button svg {
+        width: 5rem;
+    }
+    a {
+        text-decoration: none;
+    }
+}
