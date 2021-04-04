@@ -113,7 +113,6 @@
 
 * .img-responsive img {
   width: 18rem;
-  height: 30rem;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
